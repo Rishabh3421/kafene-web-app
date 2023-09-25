@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Kafene Web-App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="/header.css">
+        <link rel="stylesheet" href="/login-page.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div>
+                <div id="logo">
+                    <img src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png" alt="Kafene-web-app">
+                    <span>Kafene</span>
+                </div>
+                <nav>
+                    <a class="nav-item" href="#">Orders</a>
+                    <a class="nav-item" href="#">Products</a>
+                    <a class="nav-item" href="#">Users</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div>
+                <form id="login-form">
+                    <h1>Sign In</h1>
+                    <input id="username" type="text" name="username" placeholder="Enter Username">
+                    <input id="password" type="password" name="password" placeholder="Enter Password">
+                    <input id="login-btn" type="submit" value="Login">
+                </form>
+            </div>
+        </main>
+        <script src="/login-page.js"></script>
+    </body>
+</html>
